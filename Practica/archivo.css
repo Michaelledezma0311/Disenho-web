@@ -17,8 +17,7 @@ nav{
     background: rgba(72, 0, 75, 0.356);
     margin-block: auto;
     padding-block: auto;
-    text-align: center;
-}
-img{
-    margin-left: 15%;
+    display: inline-block;
+    margin-block: auto;
+    padding-block: auto;
 }
