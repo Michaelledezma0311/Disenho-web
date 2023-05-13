@@ -1,0 +1,19 @@
+h2,h3{
+    font-family: 'Dancing Script', cursive;
+    color:rgb(255, 0, 0);
+    font-size: 30px;
+}
+p{
+    font-size:20px;
+    color: rgb(0, 0, 0);
+    margin-left: 10px;
+}
+body{
+    background-color: rgba(234, 0, 255, 0.329);
+}
+nav{
+    font-family: 'Dancing Script', cursive;
+    background: rgba(72, 0, 75, 0.356);
+    margin-block: auto;
+    padding-block: auto;
+}
