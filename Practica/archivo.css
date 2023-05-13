@@ -3,6 +3,7 @@ h2,h3{
     color:rgb(255, 0, 0);
     font-size: 30px;
 }
+
 p{
     font-size:20px;
     color: rgb(0, 0, 0);
@@ -19,5 +20,5 @@ nav{
     text-align: center;
 }
 img{
-    text-align: center;
+    margin-left: 15%;
 }
