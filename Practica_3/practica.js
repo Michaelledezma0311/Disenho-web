@@ -20,7 +20,7 @@ function calcularfact(){
     for (let i = 1; i < num; i++) {
         resultado = resultado * i;
     }
-    document.write(resultado);
+    alert(resultado);
 }
 
 function fizzbuzz(){
