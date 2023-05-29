@@ -1,3 +1,126 @@
 header{
     background-color: #F5CCEB;
+    padding: 1px 0;
 }
+.caja{
+    width: 1500px;
+    position: relative;
+    margin: 0 auto;
+}
+nav{
+    position: absolute;
+    top: 115px;
+    right: 0;
+}
+
+nav li{
+    display: inline;
+    margin: 0 0 0 15px;
+}
+nav a{
+    text-transform:uppercase;
+    color: black;
+    font-weight:bolder;
+    font-size: 30px;
+    text-decoration: none;
+}
+nav a:hover{
+    color: #ffffff;
+    text-decoration: underline;
+}
+/*Aqui iniciea el CSS para nuestro HOME*/
+
+.principal{
+    padding: 3em 0;
+    background: #FFFFFF;
+    width: 940px;
+    margin:0 auto;
+}
+
+.titulo-principal{
+    text-align: center;
+    font-size: 2em;
+    margin: 0 0 1em;
+    clear: left;
+}
+.principal p{
+    margin:0 0 1em;
+}
+
+.principal strong{
+    font-weight: bold;
+}
+
+.principal em{
+    font-style: italic;
+}
+
+.mapa{
+    padding: 3em 0;
+    background: linear-gradient(#FEFEFE,#F5CCEB)
+}
+.mapa p{
+    margin:0 0 2em;
+    text-align: center;
+}
+
+.mapa-contenido{
+    width: 940px;
+    margin: 0 auto;
+    box-shadow: 10px 10px 20px 10px #000000;
+}
+
+
+.diferenciales{
+    padding: 3em 0;
+    background: #F5CCEB;
+}
+
+.contenido-diferenciales{
+    width: 940px;
+    margin: 0 auto;
+}
+.lista-diferenciales{
+    width: 20%;
+    display: inline-block;
+    vertical-align: top;
+}
+.items{
+    line-height: 1.5;
+}
+.items::before{
+    content:"❉ ";
+}
+
+.items:first-child{
+    font-weight: bold;
+}
+
+.imagen-diferenciales{
+    width: 30%;
+    box-shadow: 10px 10px 30px 15px #000000;
+}
+
+.imagen-diferenciales:hover{
+    opacity: 30%;
+    transition: 800ms;
+}
+
+.video{
+    width: 560px;
+    margin: 4em auto;
+    box-shadow: 10px 10px 30px 15px #000000;
+}
+footer{
+    text-align: center;
+    background: url(Imagenes/Footer.png);
+    padding: 5px;
+    margin: 5px 10px;
+}
+
+.copyright{
+    color:#FFFFFF;
+    font-size: 13px;
+    margin: 20px;
+}
+ 
