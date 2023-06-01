@@ -31,6 +31,7 @@ nav a:hover{
 
 .logo{
     width: 10%;
+
 }
 
 .indice{
@@ -77,7 +78,6 @@ nav a:hover{
     margin: 0 auto;
     box-shadow: 10px 10px 20px 10px #000000;
 }
-
 
 .diferenciales{
     padding: 3em 0;
@@ -130,4 +130,87 @@ footer{
     font-size: 13px;
     margin: 20px;
 }
- 
+
+/*Banners*/
+
+.banner{
+    width: 65%;
+    height: 400px;
+    border: 1px solid #444;
+    box-shadow: 10px 10px 80px 15px #494949 ;
+    margin: 20px auto;
+
+    background-size: 100% 100%;
+
+    animation: banner 10s infinite;
+    animation-direction: alternate;
+
+}
+
+@keyframes banner {
+    0%, 30%{
+        background-image: url(Imagenes/Banner.jpeg);
+        opacity: 1;
+    }
+    31%, 34%{
+        opacity: 2;
+    }
+    35%, 65%{
+        background-image: url(Imagenes/banner\ 2.png);
+        opacity: 1;
+    }
+    66%, 69%{
+        opacity: 2;
+    }
+    70%, 100%{
+        opacity: 1;
+        background-image:url(Imagenes/Banner\ 3.png);
+    }
+                    
+}
+
+/*Catalogo*/
+
+.productos{
+    width: 90%;
+    margin: 0 auto;
+    padding: 50px;
+}
+
+.productos li{
+    display: inline-block;
+    text-align: center;
+    width: 30%;
+    vertical-align: top;
+    margin: 0 1.5%;
+    padding: 30px 20px;
+    box-sizing: border-box;
+    border: 2px solid #F5CCEB;
+    border-radius: 10px;
+}
+
+.productos li:hover{
+    border-color:#c78c19;
+}
+
+.productos li:active{
+    border-color:#ff0000; 
+}
+
+.productos h2{
+    font-size: auto;
+    font-weight: bold;
+}
+
+.productos li:hover h2{
+    font-size: 33px;
+}
+.producto-descripcion{
+    font-size: 18px;
+}
+
+.producto-precio{
+    font-size: 20px;
+    font-weight: bold;
+    margin-top: 10px;
+}
