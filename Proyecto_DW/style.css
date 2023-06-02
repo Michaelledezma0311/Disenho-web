@@ -129,7 +129,7 @@ nav a:hover{
 }
 
 .video{
-    width: 80%;
+    width: 70%;
     margin: 4em auto;
     box-shadow: 10px 10px 30px 15px #000000;
 }
@@ -227,6 +227,30 @@ footer{
     font-size: 20px;
     font-weight: bold;
     margin-top: 10px;
+}
+
+@media (max-width:2000px){
+    .video{
+        width: 30%;
+        margin: 4em auto;
+        box-shadow: 10px 10px 30px 15px #000000;
+    }  
+}
+
+@media (max-width:800px){
+    .video{
+        width: 70%;
+        margin: 4em auto;
+        box-shadow: 10px 10px 30px 15px #000000;
+    }  
+}
+
+@media (max-width:1000){
+    .video{
+        width: 80%;
+        margin: 4em auto;
+        box-shadow: 10px 10px 30px 15px #000000;
+    }  
 }
 
 @media (max-width:400px){
